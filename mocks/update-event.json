@@ -1,0 +1,13 @@
+{
+  "body": "{\"content\":\"new world\",\"attachment\":\"new.jpg\"}",
+  "pathParameters": {
+    "id": "0d527fd0-6665-11e7-ad3b-832eab14a4bf"
+  },
+  "requestContext": {
+    "authorizer": {
+      "claims": {
+        "sub": "USER-SUB-1234"
+      }
+    }
+  }
+}
