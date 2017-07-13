@@ -26,15 +26,15 @@ provider:
       Resource: "arn:aws:dynamodb:us-west-2:*:*"
 
 functions:
-  create:
-    handler: create.main
-    events:
-      - http:
-          path: notes
-          method: post
-          cors: true
-          authorizer:
-            arn: arn:aws:cognito-idp:us-west-2:526822795616:userpool/us-west-2_hI6TBx2XK
+  # create:
+  #   handler: create.main
+  #   events:
+  #     - http:
+  #         path: notes
+  #         method: post
+  #         cors: true
+  #         authorizer:
+  #           arn: arn:aws:cognito-idp:us-west-2:526822795616:userpool/us-west-2_hI6TBx2XK
 
   get:
     # Defines an HTTP API endpoint that calls the main function in get.js
